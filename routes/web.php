@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('hello','IndexController@index');
+
+Route::get('posts','IndexController@index');
+
